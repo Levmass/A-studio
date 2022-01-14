@@ -1,0 +1,43 @@
+.header {
+      height: 120px;
+      line-height: 120px;
+      width: 100%;
+		&__sidebar {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-between;
+		}
+
+		&__logo {
+                  padding: 42px 0px;
+		}
+
+		&__menu {
+		}
+
+		&__list {
+                  display: flex;
+                  flex-wrap: wrap;
+                  li:not(:last-child) {
+                        margin: 0px 60px 0px 0px;
+                  }
+		}
+
+		&__link {
+                  color: #000;
+                  font-size: 16px;
+                  line-height: 20px;
+                  letter-spacing: 0.01em;
+                  font-weight: 500;
+                  &:hover {
+                        color: #f60076;
+                  }
+                  &:active {
+                        color: #eab778;
+                        text-decoration: underline;
+                  }
+		}
+}
+
+.header-logo {
+}
