@@ -342,7 +342,7 @@ body {
   left: -180px;
   width: 1047px;
   height: 619px;
-  background: #F4F9FF;
+  background: #FEFEFE;
   border-radius: 150px 0px 0px 0px;
   z-index: -1;
 }
@@ -435,12 +435,8 @@ body {
   border-radius: 20px;
 }
 
-.icon-howcanwehelp_1 {
-  background: #F1F7FF;
-}
-
-.icon-howcanwehelp_2 {
-  background: #F1F7FF;
+.icon-howcanwehelp_1, .icon-howcanwehelp_2 {
+  background: #FEFEFE;
 }
 
 .icon-howcanwehelp_3 {
@@ -636,7 +632,7 @@ body {
   left: 355px;
   width: 1197px;
   height: 292px;
-  background: #F4F9FF;
+  background: #FEFEFE;
   border-radius: 75px;
   z-index: -1;
 }
@@ -670,7 +666,7 @@ body {
 .subscribe__text span._active {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  z-index: -2;
+  z-index: -4;
 }
 .subscribe__title {
   font-size: 36px;
