@@ -413,19 +413,20 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.howcanwehelp__items:first-child {
-  margin: 85px 0px 0px 0px;
+.howcanwehelp__items:first-of-type {
+  margin: 85px 105px 0px 0px;
 }
 .howcanwehelp__item {
   text-align: center;
-  width: 255px;
+  width: 308px;
   height: 379px;
   border: 1px solid #F2F2F2;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
   border-radius: 40px;
-  margin: 0px 105px 30px 0px;
+  margin: 0px 0px 30px 0px;
+  padding: 39px 31px 0px 31px;
 }
 
 .icon-howcanwehelp {
@@ -435,8 +436,12 @@ body {
   border-radius: 20px;
 }
 
-.icon-howcanwehelp_1, .icon-howcanwehelp_2 {
-  background: #FEFEFE;
+.icon-howcanwehelp_1 {
+  background: #F1F7FF;
+}
+
+.icon-howcanwehelp_2 {
+  background: #FFF2F8;
 }
 
 .icon-howcanwehelp_3 {
