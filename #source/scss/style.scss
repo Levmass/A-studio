@@ -210,42 +210,46 @@ body {
                 height: 120px;
                 border: 8.8px solid #FF007A;
                 border-radius: 50%;
-                z-index: -1;
+                z-index: 1;
                 transform: translate(0px, 120%);
                 opacity: 0;
                 &._active{animation-name: round-red;animation-duration: 1s;animation-timing-function: cubic-bezier(0.68,0,0.265,1.55);animation-iteration-count: 1;animation-direction: normal;animation-play-state: running;animation-delay: 1s;animation-fill-mode: both;}
             }
         }
-        @keyframes round-red{0% {} 50% {opacity: 1;} 100% {transform: rotate(25deg); top: 700px; left: 560px; opacity: 1; z-index: -2;}}
+        @keyframes round-red{0% {} 50% {opacity: 1;} 100% {transform: rotate(25deg); top: 700px; left: 640px; opacity: 1; z-index: -2;}}
         &__items {
             display: flex;
             flex-direction: column;
-            &:first-child {
-                margin: 85px 0px 0px 0px;
+            &:first-of-type {
+                margin: 85px 105px 0px 0px;
             }
         }
 
 		&__item {
             text-align: center;
-            width: 255px;
+            width: 308px;
             height: 379px;
             border: 1px solid #F2F2F2;
             background: #FFFFFF;
             box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
             border-radius: 40px;
-            margin: 0px 105px 30px 0px;
+            margin: 0px 0px 30px 0px;
+            padding: 39px 31px 0px 31px;
 		}
 }
+
 .icon-howcanwehelp {
     display: inline-block;
     padding: 24px 24px;
     margin: 0px 0px 30px 0px;
     border-radius: 20px;
 }
-.icon-howcanwehelp_1, .icon-howcanwehelp_2 {
-    background: #FEFEFE;
+.icon-howcanwehelp_1 {
+    background: #F1F7FF;
 }
-
+.icon-howcanwehelp_2 {
+    background: #FFF2F8;
+} 
 .icon-howcanwehelp_3 {
     background: #FFF7E3;
 }
@@ -306,7 +310,7 @@ body {
 
         &__text {
             margin: 0px 0px 0px 120px;
-            width: 560px;
+            max-width: 560px;
             position: relative;
             &::before {
                 content: '';
@@ -446,7 +450,7 @@ body {
                 left: 355px;
                 width: 1197px;
                 height: 292px;
-                background: #FEFEFE;
+                background: #F4F9FF;
                 border-radius: 75px;
                 z-index: -1;
             }
@@ -509,13 +513,13 @@ body {
             &::after {
                 content: '';
                 position: absolute;
-                top: -100px;
+                top: -115px;
                 left: -11px;
                 width: 0;
                 height: 0;
                 border-left: 47.395px solid transparent;
                 border-right: 47.395px solid transparent;
-                border-bottom: 300.44px solid #fefefe;
+                border-bottom: 300.44px solid #F4F9FF;
                 transform: rotate(-6.97deg);
                 z-index: -1;
             }
@@ -550,7 +554,7 @@ body {
             }
             &:hover {
                 cursor: pointer;
-                background: #f1f1f1;
+                background: #fff;
                 border: 1px solid black;
                 a {
                 color: #000;
