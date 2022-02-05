@@ -255,6 +255,11 @@ body {
     opacity: 1;
   }
 }
+@media (max-width: 1500px) {
+  .main-screen__item_bg {
+    margin: 0px -110px 0px 0px;
+  }
+}
 
 .title {
   font-family: "Be Vietnam Pro", sans-serif;
@@ -428,6 +433,40 @@ body {
   margin: 0px 0px 30px 0px;
   padding: 39px 31px 0px 31px;
 }
+@media (max-width: 1500px) {
+  .howcanwehelp__row span {
+    top: 300px;
+    left: 95%;
+    -webkit-transform: translate(0px, 120%);
+            transform: translate(0px, 120%);
+  }
+  @-webkit-keyframes round-red {
+    50% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(25deg);
+              transform: rotate(25deg);
+      top: 700px;
+      left: 640px;
+      opacity: 1;
+      z-index: -2;
+    }
+  }
+  @keyframes round-red {
+    50% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(25deg);
+              transform: rotate(25deg);
+      top: 700px;
+      left: 640px;
+      opacity: 1;
+      z-index: -2;
+    }
+  }
+}
 
 .icon-howcanwehelp {
   display: inline-block;
@@ -586,6 +625,14 @@ body {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
 }
+@media (max-width: 1500px) {
+  .happyclientsay__item:first-child {
+    margin: 0px 0px 0px 0px;
+  }
+  .happyclientsay__item:last-child {
+    margin: 0px 0px 0px 20px;
+  }
+}
 
 .text-happyclientsay {
   margin: 90px 0px 0px 0px;
@@ -630,11 +677,13 @@ body {
   margin: 0px 0px 250px 0px;
   position: relative;
 }
+.subscribe__content {
+  position: relative;
+}
 .subscribe__content::before {
   content: "";
   position: absolute;
   top: -100px;
-  left: 355px;
   width: 1197px;
   height: 292px;
   background: #F4F9FF;
